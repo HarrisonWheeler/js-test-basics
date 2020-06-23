@@ -74,6 +74,12 @@ let myCar = {
 }
 
 function isStopped(car) {
+    if (car == myCar.moving) {
+        result = false;
+    } else if (car !== myCar.moving) {
+        result = true;
+    }
+    return result;
 }
 
 //6. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
@@ -84,4 +90,10 @@ let dish = {
 }
 
 function washDish(dish) {
+    if (dish == yourDish && dish == isDirty) {
+        result = true;
+    } else {
+        result = false;
+    }
+    return result;
 }
