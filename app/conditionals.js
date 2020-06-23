@@ -74,7 +74,6 @@ let myCar = {
 }
 
 function isStopped(car) {
-
 }
 
 //6. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
@@ -85,5 +84,4 @@ let dish = {
 }
 
 function washDish(dish) {
-
 }
